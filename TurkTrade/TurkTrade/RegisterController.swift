@@ -9,7 +9,7 @@ import Foundation
 
 import UIKit
 
-
+//RegisterControler
 class RegisterController: UIViewController {
     
     
@@ -18,7 +18,9 @@ class RegisterController: UIViewController {
         assignbackground()
         
     }
+
     @IBAction func submitButton(_ sender: Any) {
+	// Success Alert
         let alert = UIAlertController(title: "Success", message: "Your request successfully submitted.", preferredStyle: UIAlertController.Style.alert)
 
         alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
